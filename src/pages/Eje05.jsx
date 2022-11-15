@@ -19,13 +19,13 @@ const Eje05 = () => {
         <p>Pista: https://tailwindcss.com/docs/visibility</p>
       </div>
       <div>
-        <div className="">Titulo</div>
-        <div className="gap-2">
+        <div className="text-xl md:text-3xl lg:text-6xl">Titulo</div>
+        <div className="gap-2 flex flex-col md:flex-row">
           <div>Descripción1</div>
           <div>Descripción2</div>
           <div>Descripción3</div>
           <div>Descripción4</div>
-          <div className="">Descripción5</div>
+          <div className="invisible md:visible ">Descripción5</div>
         </div>
       </div>
     </div>

@@ -13,7 +13,7 @@ const Eje01 = () => {
         <p>Pista: https://tailwindcss.com/docs/flex</p>
         <p>Pista: https://tailwindcss.com/docs/gap</p>
       </div>
-      <div className="gap-3">
+      <div className="gap-3 flex flex-row">
         <CardSimple />
         <CardSimple />
         <CardSimple />

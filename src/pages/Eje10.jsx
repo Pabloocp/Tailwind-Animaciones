@@ -14,7 +14,7 @@ const Eje010 = () => {
       <p>En pantallas de tamaño mediano o superior se distribuirán en 4 columnas </p>
       <p>Pista: https://tailwindcss.com/docs/grid-template-columns</p>
 
-      <div className=''>
+      <div className='grid grid-cols-2 gap-4 md:grid-cols-4'>
         <CardSimple />
         <CardSimple />
         <CardSimple />

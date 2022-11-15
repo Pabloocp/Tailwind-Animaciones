@@ -14,9 +14,9 @@ const Eje010 = () => {
       <p>Pista: https://tailwindcss.com/docs/animation</p>
 
       <div className="m-4 flex gap-8"  >
-        <img className='' src="/src/assets/react.png" alt="react" width="100"/>
-        <img className='' src="/src/assets/react.png" alt="react" width="100"/>
-        <img className='' src="/src/assets/react.png" alt="react" width="100"/>
+        <img className='animate-spin	' src="/src/assets/react.png" alt="react" width="100"/>
+        <img className='animate-bounce' src="/src/assets/react.png" alt="react" width="100"/>
+        <img className='animate-pulse' src="/src/assets/react.png" alt="react" width="100"/>
       </div>
     </div>
   )

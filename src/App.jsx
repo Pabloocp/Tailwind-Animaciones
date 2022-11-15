@@ -17,6 +17,7 @@ import Eje11 from './pages/Eje11'
 import Eje12 from './pages/Eje12'
 import Eje13 from './pages/Eje13'
 import Eje14 from './pages/Eje14'
+import Eje15 from './pages/Eje15'
 import NoPage from './pages/NoPage'
 
 export default function App() {
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="eje12" element={<Eje12 />} />
           <Route path="eje13" element={<Eje13 />} />
           <Route path="eje14" element={<Eje14 />} />
+          <Route path="eje15" element={<Eje15 />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

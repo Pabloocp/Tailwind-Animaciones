@@ -5,7 +5,19 @@ module.exports = {
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes:{
+        fadeInKey:{
+        '0%':{opacity: 0},
+        '100%':{opacity: 1}
+      }
+      },
+      animation:{
+        myFadeIn: 'fadeInKey 2s infinite alternate'
+      }
+
+
+    },
   },
   plugins: [],
 }

@@ -21,25 +21,25 @@ const Eje010 = () => {
       <p>Pista: https://tailwindcss.com/docs/skew</p>
 
       <div className="flex gap-3">
-        <div className=" button-blue">
+        <div className=" button-blue hover:scale-50">
           uno
         </div>
-        <div className=" button-blue">
+        <div className=" button-blue hover:scale-150">
           dos
         </div>
-        <div className=" button-blue">
+        <div className=" button-blue hover:rotate-45">
           tres
         </div>
-        <div className=" button-blue">
+        <div className=" button-blue hover:rotate-45 origin-top-left">
           cuatro
         </div>
-        <div className=" button-blue">
+        <div className=" button-blue hover:-translate-y-12">
           cinco
         </div>
-        <div className=" button-blue">
+        <div className=" button-blue hover:skew-x-12 hover:skew-y-12">
           seis
         </div>
-        <div className=" button-blue">
+        <div className=" button-blue hover:opacity-80">
           siete
         </div>
       </div>

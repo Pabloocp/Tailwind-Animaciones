@@ -91,3 +91,9 @@ button:focus-visible {
   border: 1px solid blue;
   padding: 3px;
 }
+
+@layer components {
+  .fotito {
+    @apply w-12 h-12 object-cover rounded-full;
+  }
+}

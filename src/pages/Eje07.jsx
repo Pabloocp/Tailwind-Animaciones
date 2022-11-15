@@ -21,12 +21,12 @@ const Eje07 = () => {
         <p>Pista: https://tailwindcss.com/docs/reusing-styles#extracting-classes-with-apply</p>
       </div>
       <div className='flex'>
-        <img className="" src={foto1} alt="foto" />
-        <img className="" src={foto2} alt="foto" />
-        <img className="" src={foto3} alt="foto" />
-        <img className="" src={foto4} alt="foto" />
-        <img className="" src={foto5} alt="foto" />
-        <img className="" src={foto6} alt="foto" />
+        <img className="fotito" src={foto1} alt="foto" />
+        <img className="fotito" src={foto2} alt="foto" />
+        <img className="fotito" src={foto3} alt="foto" />
+        <img className="fotito" src={foto4} alt="foto" />
+        <img className="fotito" src={foto5} alt="foto" />
+        <img className="fotito " src={foto6} alt="foto" />
       </div>
     </div>
   )

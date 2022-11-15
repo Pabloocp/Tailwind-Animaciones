@@ -17,7 +17,7 @@ const Eje010 = () => {
       <p>Pista: https://tailwindcss.com/docs/hover-focus-and-other-states#placeholder-text</p>
 
       <div className="m-4"  >
-        <input type="text" className="........." placeholder="escribe algo aquí"/>
+        <input type="text" className="text-blue-200 bg-gradient-to-l from-indigo-500 rounded-lg p-2 ring-4 placeholder:text-green-200/50" placeholder="escribe algo aquí"/>
       </div>
     </div>
   )

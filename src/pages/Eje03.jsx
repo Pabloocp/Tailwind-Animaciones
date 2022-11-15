@@ -21,11 +21,11 @@ const Eje03 = () => {
         <p>Pista: https://tailwindcss.com/docs/whitespace</p>
       </div>
       <div>
-        <p className=''>1- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam maxime cumque ad, perspiciatis iure repellat repellendus. Corporis maiores repellat, deserunt, quo aspernatur deleniti voluptate in reiciendis explicabo enim omnis?</p>
-        <p className=''>2- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam maxime cumque ad, perspiciatis iure repellat repellendus. Corporis maiores repellat, deserunt, quo aspernatur deleniti voluptate in reiciendis explicabo enim omnis?</p>
-        <p className=''>3- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam maxime cumque ad, perspiciatis iure repellat repellendus. Corporis maiores repellat, deserunt, quo aspernatur deleniti voluptate in reiciendis explicabo enim omnis?</p>
-        <p className=''>4- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam maxime cumque ad, perspiciatis iure repellat repellendus. Corporis maiores repellat, deserunt, quo aspernatur deleniti voluptate in reiciendis explicabo enim omnis?</p>
-        <p className=''>5- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam maxime cumque ad, perspiciatis iure repellat repellendus. Corporis maiores repellat, deserunt, quo aspernatur deleniti voluptate in reiciendis explicabo enim omnis?</p>
+        <p className='text-orange-600 font-mono'>1- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam maxime cumque ad, perspiciatis iure repellat repellendus. Corporis maiores repellat, deserunt, quo aspernatur deleniti voluptate in reiciendis explicabo enim omnis?</p>
+        <p className='text-red-600 opacity-50'>2- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam maxime cumque ad, perspiciatis iure repellat repellendus. Corporis maiores repellat, deserunt, quo aspernatur deleniti voluptate in reiciendis explicabo enim omnis?</p>
+        <p className='font-bold italic'>3- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam maxime cumque ad, perspiciatis iure repellat repellendus. Corporis maiores repellat, deserunt, quo aspernatur deleniti voluptate in reiciendis explicabo enim omnis?</p>
+        <p className='uppercase tracking-widest'>4- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam maxime cumque ad, perspiciatis iure repellat repellendus. Corporis maiores repellat, deserunt, quo aspernatur deleniti voluptate in reiciendis explicabo enim omnis?</p>
+        <p className='truncate'>5- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam maxime cumque ad, perspiciatis iure repellat repellendus. Corporis maiores repellat, deserunt, quo aspernatur deleniti voluptate in reiciendis explicabo enim omnis?</p>
       </div>
     </div>
   )

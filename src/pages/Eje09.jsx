@@ -19,7 +19,7 @@ const Eje09 = () => {
         <p>Pista: https://tailwindcss.com/docs/gradient-color-stops</p>
       </div>
       <div>
-        <button className="">Purple to Blue</button>
+        <button className="text-white p-4 rounded-md bg-gradient-to-r from-purple-600 to-blue-500">Purple to Blue</button>
       </div>
     </div>
   )

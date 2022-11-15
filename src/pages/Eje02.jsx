@@ -15,8 +15,8 @@ const Eje02 = () => {
         <p>Pista: https://tailwindcss.com/docs/border-color</p>
       </div>
       <div>
-        <img className="" src="https://picsum.photos/200/200" alt="random" />
-        <img className="" src="https://picsum.photos/200/200" alt="random" />
+        <img class="border-8 border-red-500" src="https://picsum.photos/200/200" alt="random" />
+        <img class="border-8 p-6 mt-5" src="https://picsum.photos/200/200" alt="random" />
       </div>
     </div>
   )
